@@ -15,7 +15,7 @@ Los estilos están en la carpeta `css/` (`inicio.css` y `login.css`).
 
 ## Para abrirlo
 
-Abrí `index.html` en el navegador. Si el CSS no carga por las rutas, levantá un servidor con `python -m http.server` y entrá a `http://localhost:8000/index.html`.
+WiP
 
 ## Hecho con
 
