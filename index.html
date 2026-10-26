@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RushTix | Eventos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/inicio.css">
+</head>
+<body>
+
+  <!-- ===== Barra de navegación ===== -->
+  <header class="navbar">
+    <a href="index.html" class="logo">RUSH <span>TIX.</span></a>
+
+    <nav class="menu">
+      <a href="#">Eventos</a>
+      <a href="#">Mis boletos</a>
+      <a href="#">Ayuda</a>
+    </nav>
+
+    <div class="acciones">
+      <!-- Único enlace funcional: lleva a la página de inicio de sesión -->
+      <a href="login.html" class="btn btn-borde">Iniciar sesión</a>
+      <a href="#" class="btn btn-rojo">Registrarme</a>
+    </div>
+  </header>
+
+  <main class="contenido">
+
+    <!-- ===== Encabezado ===== -->
+    <section class="hero">
+      <p class="etiqueta">San Salvador · Este fin de semana</p>
+      <h1>Esta noche hay plan</h1>
+      <p class="subtitulo">Precio final desde el primer vistazo. Comprá en 4 pasos o menos.</p>
+    </section>
+
+    <!-- ===== Buscador y filtros ===== -->
+    <section class="buscador">
+      <label for="buscar" class="etiqueta etiqueta-clara">Buscar eventos</label>
+      <div class="buscador-fila">
+        <input type="text" id="buscar" placeholder="Rawayana, Clásico, stand-up...">
+        <div class="filtros">
+          <a href="#" class="filtro activo">Todos</a>
+          <a href="#" class="filtro">Concierto</a>
+          <a href="#" class="filtro">Fútbol</a>
+          <a href="#" class="filtro">Stand-up</a>
+          <a href="#" class="filtro">DJ sets</a>
+          <a href="#" class="filtro">Este fin de semana</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Tarjetas de eventos ===== -->
+    <section class="eventos">
+
+      <article class="tarjeta">
+        <div class="portada portada-morada">
+          <span class="estado estado-ahorita">Ahorita</span>
+          <h2>Rawayana</h2>
+        </div>
+        <div class="info">
+          <p class="categoria">Concierto · Reggae alt</p>
+          <h3>Rawayana en La Jaula</h3>
+          <div class="fecha-precio">
+            <span class="fecha">SÁB 25 OCT · 8PM</span>
+            <span class="precio">$22</span>
+          </div>
+          <a href="#" class="btn-comprar">Comprar — $22</a>
+        </div>
+      </article>
+
+      <article class="tarjeta">
+        <div class="portada portada-lima">
+          <span class="estado estado-ahorita">Ahorita</span>
+          <h2>El Clásico</h2>
+        </div>
+        <div class="info">
+          <p class="categoria">Fútbol · El Clásico</p>
+          <h3>Alianza vs. FAS</h3>
+          <div class="fecha-precio">
+            <span class="fecha">DOM 26 OCT · 3PM</span>
+            <span class="precio">$25</span>
+          </div>
+          <a href="#" class="btn-comprar">Comprar — $25</a>
+        </div>
+      </article>
+
+      <article class="tarjeta">
+        <div class="portada portada-gris">
+          <span class="estado estado-ahorita">Ahorita</span>
+          <h2>Stand-up</h2>
+        </div>
+        <div class="info">
+          <p class="categoria">Stand-up · Comedia</p>
+          <h3>Monzón en Luna Club</h3>
+          <div class="fecha-precio">
+            <span class="fecha">VIE 24 OCT · 10PM</span>
+            <span class="precio">$15</span>
+          </div>
+          <a href="#" class="btn-comprar">Comprar — $15</a>
+        </div>
+      </article>
+
+      <article class="tarjeta">
+        <div class="portada portada-amarilla">
+          <span class="estado estado-ahorita">Ahorita</span>
+          <h2>DJ Night</h2>
+        </div>
+        <div class="info">
+          <p class="categoria">DJ sets · Electrónica</p>
+          <h3>Noche de DJs en Zona Rosa</h3>
+          <div class="fecha-precio">
+            <span class="fecha">VIE 31 OCT · 9PM</span>
+            <span class="precio">$12</span>
+          </div>
+          <a href="#" class="btn-comprar">Comprar — $12</a>
+        </div>
+      </article>
+
+      <article class="tarjeta">
+        <div class="portada portada-indigo">
+          <span class="estado estado-agotado">Agotado</span>
+          <h2 class="titulo-apagado">Rock Fest</h2>
+        </div>
+        <div class="info">
+          <p class="categoria">Concierto · Rock</p>
+          <h3>Festival Cuscatlán Rock</h3>
+          <div class="fecha-precio">
+            <span class="fecha">SÁB 18 OCT · 6PM</span>
+            <span class="precio precio-gris">$18</span>
+          </div>
+          <span class="btn-comprar btn-agotado">Agotado</span>
+        </div>
+      </article>
+
+      <article class="tarjeta">
+        <div class="portada portada-oliva">
+          <span class="estado estado-finalizado">Finalizado</span>
+          <h2 class="titulo-oscuro">La Final</h2>
+        </div>
+        <div class="info">
+          <p class="categoria">Fútbol · Copa</p>
+          <h3>Final de Copa Salvadoreña</h3>
+          <div class="fecha-precio">
+            <span class="fecha">DOM 11 OCT · 3PM</span>
+            <span class="precio precio-gris">$10</span>
+          </div>
+          <span class="btn-comprar btn-finalizado">Finalizado</span>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+</body>
+</html>
