@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0c0c0c;
+  color: #ffffff;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #151515;
+  border-bottom: 1px solid #262626;
+}
+
+.logo {
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  letter-spacing: -0.5px;
+  margin-right: 32px;
+}
+
+.logo span {
+  background-color: #dcfc5c;
+  color: #111111;
+  padding: 0 4px;
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+}
+
+.menu a {
+  color: #cfcfcf;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #ffffff;
+}
+
+.acciones {
+  display: flex;
+  gap: 32px;
+  margin-left: auto;
+}
+
+.btn {
+  font-family: "Anton", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 7px 16px;
+  border-radius: 6px;
+}
+
+.btn-borde {
+  border: 2px solid #ffffff;
+}
+
+.btn-borde:hover {
+  background-color: #ffffff;
+  color: #111111;
+}
+
+.btn-rojo {
+  background-color: #eb4d3d;
+  color: #111111;
+  border: 2px solid #eb4d3d;
+}
+
+.contenido {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 50px 80px 90px;
+}
+
+.etiqueta {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #9a9a9a;
+}
+
+.etiqueta-clara {
+  color: #e6e6e6;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.hero h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 64px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  margin: 4px 0 8px;
+}
+
+.subtitulo {
+  color: #cfcfcf;
+  font-size: 15px;
+}
+
+.buscador {
+  margin-top: 40px;
+}
+
+.buscador-fila {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.buscador input {
+  width: 360px;
+  padding: 14px 18px;
+  background-color: #0c0c0c;
+  border: 2px solid #3a3a3a;
+  border-radius: 6px;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.buscador input::placeholder {
+  color: #e6e6e6;
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.filtro {
+  font-family: "Anton", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 8px 15px;
+  border: 1px solid #444444;
+  border-radius: 20px;
+  color: #e6e6e6;
+}
+
+.filtro.activo {
+  background-color: #dcfc5c;
+  border-color: #dcfc5c;
+  color: #111111;
+}
+
+.eventos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.tarjeta {
+  width: calc((100% - 64px) / 3);
+  background-color: #151515;
+  border: 1px solid #262626;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.portada {
+  height: 240px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.portada h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 64px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin: 0 0 14px 8px;
+}
+
+.portada-morada {
+  background-color: #5a3af5;
+}
+
+.portada-lima {
+  background-color: #dcfc5c;
+  color: #111111;
+}
+
+.portada-gris {
+  background-color: #202020;
+}
+
+.portada-amarilla {
+  background-color: #f4c84a;
+  color: #111111;
+}
+
+.portada-indigo {
+  background-color: #352680;
+}
+
+.portada-oliva {
+  background-color: #4f5a2a;
+}
+
+.titulo-apagado {
+  color: #8f86c9;
+}
+
+.titulo-oscuro {
+  color: #2b3215;
+}
+
+.estado {
+  font-family: "Anton", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+.estado-ahorita {
+  background-color: #dcfc5c;
+  color: #111111;
+}
+
+.portada-lima .estado-ahorita {
+  background-color: #c6e84a;
+}
+
+.estado-agotado {
+  background-color: #ea4590;
+  color: #111111;
+}
+
+.estado-finalizado {
+  border: 1px solid #2b3215;
+  color: #2b3215;
+}
+
+.info {
+  padding: 18px 16px 16px;
+}
+
+.categoria {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #9a9a9a;
+}
+
+.info h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 6px 0 4px;
+}
+
+.fecha-precio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.fecha {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  color: #e6e6e6;
+}
+
+.precio {
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  color: #eb4d3d;
+}
+
+.precio-gris {
+  color: #8a8a8a;
+}
+
+.btn-comprar {
+  display: block;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 11px;
+  border-radius: 6px;
+  background-color: #eb4d3d;
+  color: #111111;
+}
+
+.btn-comprar:hover {
+  background-color: #ff6252;
+}
+
+.btn-agotado,
+.btn-agotado:hover {
+  background-color: #ea4590;
+}
+
+.btn-finalizado,
+.btn-finalizado:hover {
+  background-color: #1e1e1e;
+  color: #6b6b6b;
+}
+
+@media (max-width: 1000px) {
+  .tarjeta {
+    width: calc((100% - 32px) / 2);
+  }
+}
+
+@media (max-width: 650px) {
+  .contenido {
+    padding: 40px 16px;
+  }
+
+  .tarjeta {
+    width: 100%;
+  }
+
+  .buscador input {
+    width: 100%;
+  }
+
+  .menu {
+    display: none;
+  }
+}
