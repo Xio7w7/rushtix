@@ -46,5 +46,5 @@ Mockups en Figma (abre sin iniciar sesión):
 
 ## Equipo
 
-- Xiomara Molina Amaya — `00XXXXXX`
-- Daniel Eduardo García Hernández — `00253220`
+- Xiomara Molina Amaya — `00XXXXXX` (Xio7w7)
+- Daniel Eduardo García Hernández — `00253220` (SLK3)
