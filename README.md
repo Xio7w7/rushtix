@@ -4,7 +4,7 @@ Plataforma de boletos para eventos de último minuto, pensada para la juventud s
 
 > **Precio final desde el primer vistazo.**
 
-Proyecto de la materia **Programación Orientada al Usuario (POU 5473)** — Universidad Centroamericana José Simeón Cañas (UCA), ciclo 02/2026. Este repositorio contiene la **primera parte del sitio web**, codificada a partir del diseño en Figma.
+Proyecto de la materia **Programación Orientada al Usuario (POU)** — Universidad Centroamericana José Simeón Cañas (UCA), ciclo 02/2026. Este repositorio contiene la **primera parte del sitio web**, codificada a partir del diseño en Figma.
 
 ## Páginas
 
